@@ -1,4 +1,4 @@
-// meta={"simUrl":"https://trg-arcade.userpxt.io/v1.12.59/---simulator","cdnUrl":"https://cdn.makecode.com","version":"0.1.1","target":"arcade","targetVersion":"1.12.59","repo":"phatisena/arcade-sprite-data-kind"}
+// meta={"simUrl":"https://trg-arcade.userpxt.io/v1.12.59/---simulator","cdnUrl":"https://cdn.makecode.com","version":"0.1.2","target":"arcade","targetVersion":"1.12.59","repo":"phatisena/arcade-sprite-data-kind"}
 // total=1271735 new=7.01% cached=87.35% other=5.64%
 (function (ectx) {
 'use strict';
@@ -429,7 +429,7 @@ const pxsim_pxtrt = pxsim.pxtrt;
 const pxsim_numops = pxsim.numops;
 
 
-function _main___P193969(s) {
+function _main___P199102(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -891,13 +891,13 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-_main___P193969.info = {"start":0,"length":0,"line":0,"column":0,"endLine":0,"endColumn":0,"fileName":"main.ts","functionName":"<main>","argumentNames":[]}
-_main___P193969.continuations = [  ]
+_main___P199102.info = {"start":0,"length":0,"line":0,"column":0,"endLine":0,"endColumn":0,"fileName":"main.ts","functionName":"<main>","argumentNames":[]}
+_main___P199102.continuations = [  ]
 
-function _main___P193969_mk(s) {
+function _main___P199102_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: _main___P193969, depth: s.depth + 1,
+        parent: s, fn: _main___P199102, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -42880,5 +42880,5 @@ const sprites_BaseSpriteSayRenderer__C149640_VT = mkVTable({
 
 const breakpoints = setupDebugger(1, ["myNumber___151742","myNumberArray___151745","myString___151748","myStringArray___151751","myBoolean___151754","myBooleanArray___151757","mySprite___151760","mySpriteArray___151763","myImage___151766","myImageArray___151769","myLocation___151772","myLocationArray___151775","kindid___154887","kindid___154878","kindid___154869","kindid___154860","kindid___154851","kindid___154842","kindid___154833","kindid___154824","kindid___154815","kindid___154806","kindid___154797","kindid___154788"])
 
-return _main___P193969
+return _main___P199102
 })
