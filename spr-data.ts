@@ -10,9 +10,9 @@ namespace sprites {
     //% weight=10
     //% blockGap=8
     export function setDataNumber(sprite: Sprite, name: number, value: number) {
-        if (!sprite || !name) return;
+        if (!sprite || !name.toString()) return;
         const d = sprite.data;
-        d[name] = value;
+        d[name.toString()] = value;
     }
 
     /**
@@ -25,9 +25,9 @@ namespace sprites {
     //% weight=10
     //% blockGap=8
     export function changeDataNumberBy(sprite: Sprite, name: number, value: number) {
-        if (!sprite || !name) return;
+        if (!sprite || !name.toString()) return;
         const d = sprite.data;
-        d[name] = (d[name] || 0) + value;
+        d[name.toString()] = (d[name.toString()]|| 0) + value;
     }
 
     /**
@@ -40,9 +40,9 @@ namespace sprites {
     //% weight=10
     //% blockGap=8
     export function readDataNumber(sprite: Sprite, name: number): number {
-        if (!sprite || !name) return 0;
+        if (!sprite || !name.toString()) return 0;
         const d = sprite.data;
-        return d[name] as number;
+        return d[name.toString()] as number;
     }
 
     /**
@@ -55,9 +55,9 @@ namespace sprites {
     //% weight=10
     //% blockGap=8
     export function setDataNumberArray(sprite: Sprite, name: number, value: number[]) {
-        if (!sprite || !name) return;
+        if (!sprite || !name.toString()) return;
         const d = sprite.data;
-        d[name] = value;
+        d[name.toString()] = value;
     }
 
     /**
@@ -70,9 +70,9 @@ namespace sprites {
     //% weight=10
     //% blockGap=8
     export function readDataNumberArray(sprite: Sprite, name: number): number[] {
-        if (!sprite || !name) return undefined;
+        if (!sprite || !name.toString()) return undefined;
         const d = sprite.data;
-        return d[name] as number[];
+        return d[name.toString()] as number[];
     }
 
     /**
@@ -85,9 +85,9 @@ namespace sprites {
     //% weight=9
     //% blockGap=8
     export function setDataString(sprite: Sprite, name: number, value: string) {
-        if (!sprite || !name) return;
+        if (!sprite || !name.toString()) return;
         const d = sprite.data;
-        d[name] = value;
+        d[name.toString()] = value;
     }
 
     /**
@@ -100,9 +100,9 @@ namespace sprites {
     //% weight=9
     //% blockGap=8
     export function readDataString(sprite: Sprite, name: number): string {
-        if (!sprite || !name) return "";
+        if (!sprite || !name.toString()) return "";
         const d = sprite.data;
-        return d[name] as string;
+        return d[name.toString()] as string;
     }
 
     /**
@@ -130,9 +130,9 @@ namespace sprites {
     //% weight=9
     //% blockGap=8
     export function readDataStringArray(sprite: Sprite, name: number): string[] {
-        if (!sprite || !name) return undefined;
+        if (!sprite || !name.toString()) return undefined;
         const d = sprite.data;
-        return d[name] as string[];
+        return d[name.toString()] as string[];
     }
 
     /**
@@ -176,9 +176,9 @@ namespace sprites {
     //% weight=8
     //% blockGap=8
     export function setDataBooleanArray(sprite: Sprite, name: number, value: boolean[]) {
-        if (!sprite || !name) return;
+        if (!sprite || !name.toString()) return;
         const d = sprite.data;
-        d[name] = value;
+        d[name.toString()] = value;
     }
 
     /**
@@ -206,9 +206,9 @@ namespace sprites {
     //% weight=7
     //% blockGap=8
     export function setDataSprite(sprite: Sprite, name: number, value: Sprite) {
-        if (!sprite || !name) return;
+        if (!sprite || !name.toString()) return;
         const d = sprite.data;
-        d[name] = value;
+        d[name.toString()] = value;
     }
 
     /**
@@ -237,9 +237,9 @@ namespace sprites {
     //% weight=7
     //% blockGap=8
     export function setDataSpriteArray(sprite: Sprite, name: number, value: Sprite[]) {
-        if (!sprite || !name) return;
+        if (!sprite || !name.toString()) return;
         const d = sprite.data;
-        d[name] = value;
+        d[name.toString()] = value;
     }
 
     /**
@@ -252,9 +252,9 @@ namespace sprites {
     //% weight=7
     //% blockGap=8
     export function readDataSpriteArray(sprite: Sprite, name: number): Sprite[] {
-        if (!sprite || !name) return undefined;
+        if (!sprite || !name.toString()) return undefined;
         const d = sprite.data;
-        return d[name] as Sprite[];
+        return d[name.toString()] as Sprite[];
     }
 
     /**
@@ -299,9 +299,9 @@ namespace sprites {
     //% weight=6
     //% blockGap=8
     export function readDataImage(sprite: Sprite, name: number): Image {
-        if (!sprite || !name) return undefined;
+        if (!sprite || !name.toString()) return undefined;
         const d = sprite.data;
-        return d[name] as Image;
+        return d[name.toString()] as Image;
     }
 
     /**
@@ -332,9 +332,9 @@ namespace sprites {
     //% weight=6
     //% blockGap=8
     export function setDataImageValueArray(sprite: Sprite, name: number, value: Image[]) {
-        if (!sprite || !name) return;
+        if (!sprite || !name.toString()) return;
         const d = sprite.data;
-        d[name] = value;
+        d[name.toString()] = value;
     }
 
     /**
@@ -347,9 +347,9 @@ namespace sprites {
     //% weight=6
     //% blockGap=8
     export function readDataImageArray(sprite: Sprite, name: number): Image[] {
-        if (!sprite || !name) return undefined;
+        if (!sprite || !name.toString()) return undefined;
         const d = sprite.data;
-        return d[name] as Image[];
+        return d[name.toString()] as Image[];
     }
 
     /**
@@ -363,9 +363,9 @@ namespace sprites {
     //% weight=5
     //% blockGap=8
     export function setDataLocation(sprite: Sprite, name: number, value: tiles.Location) {
-        if (!sprite || !name) return;
+        if (!sprite || !name.toString()) return;
         const d = sprite.data;
-        d[name] = value;
+        d[name.toString()] = value;
     }
 
     /**
@@ -378,9 +378,9 @@ namespace sprites {
     //% weight=5
     //% blockGap=8
     export function readDataLocation(sprite: Sprite, name: number): tiles.Location {
-        if (!sprite || !name) return undefined;
+        if (!sprite || !name.toString()) return undefined;
         const d = sprite.data;
-        return d[name] as tiles.Location;
+        return d[name.toString()] as tiles.Location;
     }
 
     /**
@@ -409,9 +409,9 @@ namespace sprites {
     //% weight=8
     //% blockGap=8
     export function readDataLocationArray(sprite: Sprite, name: number): tiles.Location[] {
-        if (!sprite || !name) return undefined;
+        if (!sprite || !name.toString()) return undefined;
         const d = sprite.data;
-        return d[name] as tiles.Location[];
+        return d[name.toString()] as tiles.Location[];
     }
 
 }
