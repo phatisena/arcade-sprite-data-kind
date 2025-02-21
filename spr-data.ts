@@ -5,6 +5,7 @@ namespace sprites {
      */
     //% blockId=spriteDataSetNumber block="set $sprite=variables_get data $name to number $value"
     //% name.shadow="spriteDataNumberNameShadow"
+    //% sprite.defl=mySprite
     //% group="Data"
     //% weight=10
     //% blockGap=8
@@ -19,6 +20,7 @@ namespace sprites {
      */
     //% blockId=spriteDataChangeNumber block="change $sprite=variables_get data $name by number $value"
     //% name.shadow="spriteDataNumberNameShadow"
+    //% sprite.defl=mySprite
     //% group="Data"
     //% weight=10
     //% blockGap=8
@@ -33,6 +35,7 @@ namespace sprites {
      */
     //% blockId=spriteDataGetNumber block="$sprite=variables_get data $name as number"
     //% name.shadow="spriteDataNumberNameShadow"
+    //% sprite.defl=mySprite
     //% group="Data"
     //% weight=10
     //% blockGap=8
@@ -47,6 +50,7 @@ namespace sprites {
      */
     //% blockId=spriteDataSetNumberArray block="set $sprite=variables_get data $name to number array $value"
     //% name.shadow="spriteDataNumberArrayNameShadow"
+    //% sprite.defl=mySprite
     //% group="Data array"
     //% weight=10
     //% blockGap=8
@@ -61,6 +65,7 @@ namespace sprites {
      */
     //% blockId=spriteDataGetNumberArray block="$sprite=variables_get data $name as number array"
     //% name.shadow="spriteDataNumberArrayNameShadow"
+    //% sprite.defl=mySprite
     //% group="Data array"
     //% weight=10
     //% blockGap=8
@@ -75,6 +80,7 @@ namespace sprites {
      */
     //% blockId=spriteDataSetString block="set $sprite=variables_get data $name to string $value"
     //% name.shadow="spriteDataStringNameShadow"
+    //% sprite.defl=mySprite
     //% group="Data"
     //% weight=9
     //% blockGap=8
@@ -89,6 +95,7 @@ namespace sprites {
      */
     //% blockId=spriteDataGetString block="$sprite=variables_get data $name as string"
     //% name.shadow="spriteDataStringNameShadow"
+    //% sprite.defl=mySprite
     //% group="Data"
     //% weight=9
     //% blockGap=8
@@ -103,6 +110,7 @@ namespace sprites {
      */
     //% blockId=spriteDataSetStringArray block="set $sprite=variables_get data $name to string array $value"
     //% name.shadow="spriteDataStringArrayNameShadow"
+    //% sprite.defl=mySprite
     //% group="Data array"
     //% weight=9
     //% blockGap=8
@@ -117,6 +125,7 @@ namespace sprites {
      */
     //% blockId=spriteDataGetStringArray block="$sprite=variables_get data $name as string array"
     //% name.shadow="spriteDataStringArrayNameShadow"
+    //% sprite.defl=mySprite
     //% group="Data array"
     //% weight=9
     //% blockGap=8
@@ -131,6 +140,7 @@ namespace sprites {
      */
     //% blockId=spriteDataSetBoolean block="set $sprite=variables_get data $name to boolean $value"
     //% name.shadow="spriteDataBooleanNameShadow"
+    //% sprite.defl=mySprite
     //% group="Data"
     //% weight=8
     //% blockGap=8
@@ -145,6 +155,7 @@ namespace sprites {
      */
     //% blockId=spriteDataGetBoolean block="$sprite=variables_get data $name as boolean"
     //% name.shadow="spriteDataBooleanNameShadow"
+    //% sprite.defl=mySprite
     //% group="Data"
     //% weight=8
     //% blockGap=8
@@ -160,6 +171,7 @@ namespace sprites {
      */
     //% blockId=spriteDataSetBooleanArray block="set $sprite=variables_get data $name to boolean array $value"
     //% name.shadow="spriteDataBooleanArrayNameShadow"
+    //% sprite.defl=mySprite
     //% group="Data array"
     //% weight=8
     //% blockGap=8
@@ -174,6 +186,7 @@ namespace sprites {
      */
     //% blockId=spriteDataGetBooleanArray block="$sprite=variables_get data $name as boolean array"
     //% name.shadow="spriteDataBooleanArrayNameShadow"
+    //% sprite.defl=mySprite
     //% group="Data array"
     //% weight=8
     //% blockGap=8
@@ -188,6 +201,7 @@ namespace sprites {
      */
     //% blockId=spriteDataSetSprite block="set $sprite=variables_get data $name to sprite $value"
     //% name.shadow="spriteDataSpriteNameShadow"
+    //% sprite.defl=mySprite
     //% group="Data"
     //% weight=7
     //% blockGap=8
@@ -202,6 +216,7 @@ namespace sprites {
      */
     //% blockId=spriteDataGetSprite block="$sprite=variables_get data $name as sprite"
     //% name.shadow="spriteDataSpriteNameShadow"
+    //% sprite.defl=mySprite
     //% group="Data"
     //% weight=7
     //% blockGap=8
@@ -217,6 +232,7 @@ namespace sprites {
     //% blockId=spriteDataSetSpriteArray block="set $sprite=variables_get data $name to sprite array $value"
     //% value.shadow="lists_create_with"
     //% name.shadow="spriteDataSpriteNameShadow"
+    //% sprite.defl=mySprite
     //% group="Data array"
     //% weight=7
     //% blockGap=8
@@ -231,6 +247,7 @@ namespace sprites {
      */
     //% blockId=spriteDataGetSpriteArray block="$sprite=variables_get data $name as sprite array"
     //% name.shadow="spriteDataSpriteArrayNameShadow"
+    //% sprite.defl=mySprite
     //% group="Data array"
     //% weight=7
     //% blockGap=8
@@ -246,6 +263,7 @@ namespace sprites {
      */
     //% blockId=spriteDataSetImage block="set $sprite=variables_get data $name to image $value"
     //% name.shadow="spriteDataImageNameShadow"
+    //% sprite.defl=mySprite
     //% group="Data"
     //% deprecated=1
     //% weight=6
@@ -259,8 +277,9 @@ namespace sprites {
      */
     //% blockId=spriteDataSetImageValue block="set $sprite data $name to image $value"
     //% name.shadow="spriteDataImageNameShadow"
-    //% group="Data"
     //% sprite.shadow=variables_get
+    //% sprite.defl=mySprite
+    //% group="Data"
     //% value.shadow=screen_image_picker
     //% weight=6
     //% blockGap=8
@@ -275,6 +294,7 @@ namespace sprites {
      */
     //% blockId=spriteDataGetImage block="$sprite=variables_get data $name as image"
     //% name.shadow="spriteDataImageNameShadow"
+    //% sprite.defl=mySprite
     //% group="Data"
     //% weight=6
     //% blockGap=8
@@ -291,6 +311,7 @@ namespace sprites {
     //% blockId=spriteDataSetImageArray block="set $sprite=variables_get data $name to image array $value"
     //% value.shadow="lists_create_with" value.defl=screen_image_picker
     //% name.shadow="spriteDataImageArrayNameShadow"
+    //% sprite.defl=mySprite
     //% group="Data array"
     //% deprecated=1
     //% weight=6
@@ -304,9 +325,10 @@ namespace sprites {
      */
     //% blockId=spriteDataSetImageValueArray block="set $sprite data $name to image array $value"
     //% value.shadow="lists_create_with" value.defl=screen_image_picker
+    //% sprite.shadow=variables_get
+    //% sprite.defl=mySprite
     //% name.shadow="spriteDataImageArrayNameShadow"
     //% group="Data array"
-    //% sprite.shadow=variables_get
     //% weight=6
     //% blockGap=8
     export function setDataImageValueArray(sprite: Sprite, name: number, value: Image[]) {
@@ -320,6 +342,7 @@ namespace sprites {
      */
     //% blockId=spriteDataGetImageArray block="$sprite=variables_get data $name as image array"
     //% name.shadow="spriteDataImageArrayNameShadow"
+    //% sprite.defl=mySprite
     //% group="Data array"
     //% weight=6
     //% blockGap=8
@@ -335,6 +358,7 @@ namespace sprites {
     //% blockId=spriteDataSetLocation block="set $sprite=variables_get data $name to location $value"
     //% name.shadow="spriteDataLocationNameShadow"
     //% value.shadow=mapgettile
+    //% sprite.defl=mySprite
     //% group="Data"
     //% weight=5
     //% blockGap=8
@@ -349,6 +373,7 @@ namespace sprites {
      */
     //% blockId=spriteDataGetLocation block="$sprite=variables_get data $name as location"
     //% name.shadow="spriteDataLocationNameShadow"
+    //% sprite.defl=mySprite
     //% group="Data"
     //% weight=5
     //% blockGap=8
@@ -364,6 +389,7 @@ namespace sprites {
     //% blockId=spriteDataSetLocationArray block="set $sprite=variables_get data $name to location array $value"
     //% name.shadow="spriteDataLocationArrayNameShadow"
     //% value.shadow="lists_create_with" value.defl=mapgettile
+    //% sprite.defl=mySprite
     //% group="Data array"
     //% weight=8
     //% blockGap=8
@@ -378,6 +404,7 @@ namespace sprites {
      */
     //% blockId=spriteDataGetLocationArray block="$sprite=variables_get data $name as location array"
     //% name.shadow="spriteDataLocationArrayNameShadow"
+    //% sprite.defl=mySprite
     //% group="Data array"
     //% weight=8
     //% blockGap=8
